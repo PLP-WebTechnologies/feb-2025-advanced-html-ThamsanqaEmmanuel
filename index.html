@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thamsanqa' Week 2 Assignment</title>
+</head>
+
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Things I Want in Life</h2>
+        <ol type="I">
+            <li>Cars</li>
+            <li>Houses </li>
+            <li>Businesses</li>
+            <li>Lots of money</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Beautiful Image</h2>
+        <img src="https://images.pexels.com/photos/3772585/pexels-photo-3772585.jpeg" alt="Beautiful Landscape" width="600">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Peter </td>
+                    <td>13 Menlyn St, Pretoria</td>
+                    <td>(+27) 123-9597</td>
+                    <td>Peter@yahoo.com</td>
+                </tr>
+                <tr>
+                    <td>Judy </td>
+                    <td>49 Kolonade Ave, Pretora</td>
+                    <td>(+27) 127-1143</td>
+                    <td>judy@hotmail.com</td>
+                </tr>
+                <tr>
+                    <td>Nate</td>
+                    <td>36 Wonderpark Rd, Pretoria</td>
+                    <td>(+27) 500-1010</td>
+                    <td>nate32@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Brown</td>
+                    <td>11 Waverly St, Midrand</td>
+                    <td>(+27) 854-0152</td>
+                    <td>brown@icloud.com</td>
+                </tr>
+                <tr>
+                    <td>Tylor</td>
+                    <td>2 Mall Of Africa Rd, Midrand</td>
+                    <td>(+27) 313-3131</td>
+                    <td>tylor123@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+           
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br>
+
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+           
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required><br>
+
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+
+           
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+
+            <!-- Radio Buttons -->
+            <label>Subscription Plan:</label>
+            <input type="radio" id="basic" name="plan" value="basic" required>
+            <label for="basic">Basic</label>
+            <input type="radio" id="premium" name="plan" value="premium">
+            <label for="premium">Premium</label><br>
+
+            <!-- Checkboxes -->
+            <label for="newsletter">Newsletter Subscription:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+            <label for="newsletter">I would like to receive newsletters.</label><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+</body>
+
+</html>
